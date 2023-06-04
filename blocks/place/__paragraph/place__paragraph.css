@@ -1,0 +1,7 @@
+.place__paragraph {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}

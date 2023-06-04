@@ -1,0 +1,8 @@
+.header {
+  height: 52px;
+  width: 1008px;
+  margin: 28px 48px 56px;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  gap: 16px;
+}

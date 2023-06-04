@@ -1,0 +1,8 @@
+.cover {
+  margin: 0 46px 92px;
+  width: 1184px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
