@@ -1,8 +1,15 @@
 .header {
   height: 52px;
-  width: 1008px;
-  margin: 28px 48px 56px;
+  width: max(1008px, 78%);
+  margin: 28px 48px 56px 224px;
   display: inline-flex;
   flex-direction: row-reverse;
   gap: 16px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 753px;
+  }
 }

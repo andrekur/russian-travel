@@ -6,3 +6,12 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 0;
+    margin-bottom: 92px;
+    width: 1024px;
+    height: 740px;
+  }
+}
