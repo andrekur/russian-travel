@@ -1,5 +1,18 @@
 .intro {
-  margin-left: max(148px, 12%);
-  width: 690px;
-  height: 429px
+  padding: 0 148px;
+  width: 100%;
+  height: 429px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
 }

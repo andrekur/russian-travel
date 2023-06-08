@@ -1,14 +1,22 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: 152px 460px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px 456px;
-    grid-template-rows: 152px 440px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 48px 28px;
   }
 }

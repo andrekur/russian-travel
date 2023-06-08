@@ -1,8 +1,15 @@
 .lead {
-  height: 1005px;
-  margin: 0 148px 92px;
+  height: fit-content;
+  padding: 0 48px 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    padding: 0;
+    padding-bottom: 92px;
+  }
 }
