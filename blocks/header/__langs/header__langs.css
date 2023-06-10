@@ -1,6 +1,9 @@
 .header__langs {
-  display: inline-flex;
-  flex-direction: row-reverse;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
   gap: 18px;
   align-items: center;
 }
