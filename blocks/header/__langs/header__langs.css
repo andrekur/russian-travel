@@ -1,6 +1,6 @@
 .header__langs {
   display: inline-flex;
   flex-direction: row-reverse;
-  gap: 16px;
+  gap: 18px;
   align-items: center;
 }

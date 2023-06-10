@@ -7,3 +7,11 @@
   text-align: right;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

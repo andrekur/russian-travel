@@ -1,10 +1,13 @@
 .cover {
-  padding: 0 46px 92px;
-  width: 100%;
+  padding: 0 48px 92px;
   display: flex;
   box-sizing: border-box;
-  flex-direction: column;
-  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    padding: 0 4% 92px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
