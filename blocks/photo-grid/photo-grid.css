@@ -28,6 +28,6 @@
   .photo-grid {
     padding: 64px 5%;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 12px;
+    gap: 12px 0;
   }
 }
