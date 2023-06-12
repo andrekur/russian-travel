@@ -20,7 +20,7 @@
     padding: 88px 24px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    gap: 14px 14px;
+    gap: 16px 16px;
   }
 }
 
