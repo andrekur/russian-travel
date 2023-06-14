@@ -8,6 +8,7 @@
   text-align: right;
   color: #FFFFFF;
   transition: opacity .5s;
+  text-decoration-line: none;
 }
 
 .header__lang-link:hover {
